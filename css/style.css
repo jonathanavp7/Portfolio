@@ -566,6 +566,10 @@ span {
     .portfolio-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .portfolio-container .flip-card {
+        margin: 3rem 0;
+    }
 }
 
 @media (max-width: 617px) {
